@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    /* background-image: url("img/bg.jpg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-color:#141d26;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: 	#243447;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+    min-height: 100vh;
+    position: relative;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+ul li {
+    margin-right: 15px;
+    text-align: center;
+    
+}
+
+ul li.welcome-message {
+    float: right;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+ul li a:hover{
+    transition: 0.3s;
+    color: #AAB8C2;
+}
+
+.profile-image {
+    max-width: 250px;
+}
+
+.posts .post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-inline: 2px solid white;
+}
+/* 
+.split{
+    width: 50%;
+} */
+
+.right{
+    width: 40%;
+    float: right;
+}
+
+.left{
+    width: 60%;
+    float: left;
+    text-align: left;
+    margin-top: 150px;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.thinner{
+    font-weight: 300;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+}
+
+.dummy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.homepage h2 {
+    font-weight: 300;
+}
+
+.homepage h2 a{
+    font-weight: 500!important;
+    color: lightblue;
+    text-decoration: none;
+}
+
+.homepage h2 a:hover{
+    color: #AAB8C2;
+    transition: 0.3s;
+}
+
+.homepage img{
+    margin-top: 150px;
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: left;
+}
+
+form {
+    margin-top: 50px;
+}
+
+form input {
+    display: block;
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: #111922;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+form input:focus{
+    background-color: #111922;
+    outline: none;
+}
+
+input[type=submit]{
+    font-size: 15px;
+}
+
+form textarea {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: #111922;
+    outline: none;
+    color: #fff;
+}
+
+.obj{
+    margin-top: -50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.reg {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.reg a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+.posts {
+    margin-top: 75px;
+}
+
+.posts .post {
+    background-color: #141d26;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    position: relative;
+    border-radius: 15px;
+}
+
+.posts .post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.posts .post p {
+    margin: 5px 0;
+    color: white;
+}
+
+.posts .post p:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.posts .post p:nth-child(2) {
+    font-size: 22px;
+    color: white;
+}
+
+.posts .post p:nth-child(3) {
+    font-size: 14px;
+}
+
+.posts .post .likes {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #fff;
+}
+
+.posts .post .likes button {
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    background-color: #141d26;
+    color: #fff;
+    border:1px solid #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.posts .post .likes button:hover{
+    background-color: #fff;
+    transition: 0.5s all;
+    color: #141d26;
+}
+
+input[type=file]{
+    display: block;
+    margin-top: 15px;
+    height: 30px;
+    padding-left: 100px;
+    padding-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: #111922;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.txt{
+    text-align: center;
+    font-size: 24px;
+}
+
+.profile-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
